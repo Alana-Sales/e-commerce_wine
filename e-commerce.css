@@ -1,10 +1,7 @@
 /* Cores */
 :root{
-    --branco:#c46434;
-    --laranja:#48271f;
-    --roxo: #48271f;
-    --roxo-escuro: #48271f;
-
+    --laranja:#c46434;
+    --marrom:#48271f;
 }
 
 *{
@@ -39,7 +36,7 @@ section{
 
 /* About us */
 .heading span{
-    color:var(--roxo-escuro);
+    color:var(--marrom);
 }
 
 /* Botão */
@@ -47,7 +44,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background:var(--roxo);
+    background:var(--marrom);
     color:#fff;
     padding:.9rem 3.5rem;
     cursor:pointer;
@@ -55,7 +52,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--roxo-escuro);
+    background:var(--marrom);
 }
 
 header{
@@ -78,7 +75,7 @@ header .logo{
 
 /* Alana. */
 header .logo span{
-    color:var(--roxo)
+    color:var(--marrom)
 }
 
 header .navbar a{
@@ -88,13 +85,13 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color: var(--roxo-escuro)
+    color: var(--marrom)
 }
 
 /* Itens da barra */
 header .navbar a{
     font-size: 3rem;
-    color: var(--roxo);
+    color: var(--marrom);
     margin-left: 1.5rem;
 }
 
@@ -105,7 +102,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color: var(--laranja)
+    color: var(--marrom)
 }
 
 header #toggler{
@@ -138,13 +135,13 @@ header .fa-bars{
 /* Título */
 .home .content h3{
     font-size: 6rem;
-    color: var(--roxo-escuro);
+    color: var(--marrom);
 }
 
 /* Subtítulo */ 
 .home .content span{
     font-size: 3.5rem;
-    color: var(--branco);
+    color: var(--laranja);
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -152,7 +149,7 @@ header .fa-bars{
 /* Texto abaixo do subtitulo */
 .home .content p{
     font-size: 1.9rem;
-    color: var(--roxo-escuro);
+    color: var(--marrom);
     padding: 1rem 0;
     line-height: 1.5;
 }
@@ -197,7 +194,7 @@ header .fa-bars{
 
 .about .row .content h3{
     font-size: 3rem;
-    color:var(--roxo-escuro);
+    color:var(--marrom);
 }
 
 .about .row .content p{
@@ -261,7 +258,7 @@ header .fa-bars{
     top: 1rem; left:1rem;
     padding:.7rem 1rem;
     font-size: 2rem;
-    color: var(--laranja);
+    color: var(--marrom);
     background: #fff;
     z-index:1;
 }
@@ -300,7 +297,7 @@ header .fa-bars{
     line-height: 5rem;
     font-size: 2rem;
     width: 50%;
-    background: var(--laranja);
+    background: var(--marrom);
     color: #fff;
 }
 
@@ -326,7 +323,7 @@ header .fa-bars{
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color: var(--laranja);
+    color: var(--marrom);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -361,7 +358,7 @@ header .fa-bars{
 }
 
 .review .box-container .box .stars i{
-    color:var(--laranja);
+    color:var(--marrom);
     font-size: 2rem;
 }
 
@@ -432,7 +429,7 @@ header .fa-bars{
 }
 
 .contact .row form .box:focus{
-    border-color: var(--laranja);
+    border-color: var(--marrom);
 }
 
 .contact .row form textarea{
@@ -484,7 +481,7 @@ header .fa-bars{
 }
 
 .footer .credit span{
-    color: var(--laranja);
+    color: var(--marrom);
 }
 
 /* media queries */
